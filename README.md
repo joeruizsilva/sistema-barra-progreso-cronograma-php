@@ -5,3 +5,5 @@ Paso 1 crear una base de datos de nombre: login_2019 luego importar el archivo l
 NOTA: la carpeta del proyecto es: sistema-barra
 
 la carpeta barra, es solo de prueba para el que quiere el cronograma solo sin sistema de dashboard
+
+es mi primer repositorio, se aceptan mejoras del sistema gracias :)✌🏻
