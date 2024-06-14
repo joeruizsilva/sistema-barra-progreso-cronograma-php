@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+h1, h2 {
+  color: #333;
+}
+button#addBtn {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button#addBtn:hover {
+  background-color: #4cae4c;
+}
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+form input, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+form button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #4cae4c;
+}
+
+table.dataTable {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.progress-bar {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 20px;
+  background-color: green;
+  width: 0%;
+  transition: width 0.5s, background-color 0.5s;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.editBtn, .deleteBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deleteBtn {
+  background-color: #dc3545;
+}
+.editBtn:hover {
+  background-color: #0056b3;
+}
+.deleteBtn:hover {
+  background-color: #c82333;
+}
+
+/*--- Para dispositivos small responsive ---*/
+
+@media (max-width: 576px) {
+  .wrap-login {
+    padding: 77px 15px 33px 15px;
+  }
+}
