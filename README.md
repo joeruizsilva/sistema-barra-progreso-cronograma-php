@@ -7,3 +7,5 @@ NOTA: la carpeta del proyecto es: sistema-barra
 la carpeta barra, es solo de prueba para el que quiere el cronograma solo sin sistema de dashboard
 
 es mi primer repositorio, se aceptan mejoras del sistema gracias :)✌🏻
+
+demostracion: https://www.youtube.com/watch?v=vUEAINTXYvA
